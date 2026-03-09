@@ -5,7 +5,7 @@ function App() {
 
   return (
  <>
- <h1>   Welcome to React + vite  </h1>
+ <h1>   portfolio  </h1>
  </>
   )
 }
