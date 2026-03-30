@@ -20,7 +20,7 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-10 grid gap-8 md:grid-cols-4">
         {/* Logo & About */}
         <div>
-          <h2 className="text-xl font-bold text-blue-500">Govardhan</h2>
+          <h2 className="text-xl font-bold text-blue-500">Govardhan Jujaru </h2>
           <p
             className={`mt-3 text-sm ${
               isDark ? "text-gray-400" : "text-gray-600"
