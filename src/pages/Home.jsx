@@ -3,7 +3,7 @@ import { useTheme } from "../hooks/ThemeContext";
 import Govardhan_Resume from "../assets/Govardhan_Resume.pdf";
 import { FaCode, FaDatabase, FaReact, FaDownload } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import profilepic from "../assets/profilePicture.jpg"
+import profilepic from "../assets/profilePicture.jpg";
 
 export const Home = () => {
   const { theme } = useTheme();
@@ -22,6 +22,11 @@ export const Home = () => {
 
   const roles = [
     {
+      icon: FaReact,
+      title: "Frontend Developer | React ",
+      desc: "React js , ReactNative(basics) ",
+    },
+    {
       icon: FaCode,
       title: "Full Stack Developer",
       desc: "Building complete web solutions",
@@ -30,11 +35,6 @@ export const Home = () => {
       icon: FaDatabase,
       title: "MERN Stack Developer",
       desc: "MongoDB, Express, React, Node.js",
-    },
-    {
-      icon: FaReact,
-      title: "Frontend Developer | React ",
-      desc: "React js , ReactNative(basics) ",
     },
   ];
 
@@ -102,17 +102,17 @@ export const Home = () => {
                 </button>
               </Link>
             </div>
-            <div className=" flex flex-col sm:flex-row gap-4 justify-start  mt-4  ">
+            <div className="flex flex-col sm:flex-row gap-2 justify-start items-start mt-4">
               <button
                 onClick={handleDownload}
-                className={`px-9 w[800px] py-4 rounded-lg font-semibold transition-all duration-300 text-sm sm:text-base cursor-pointer ${
+                className={`px-5 py-3 rounded-lg font-semibold transition-all duration-300 text-sm sm:text-base cursor-pointer w-fit ${
                   isDark
                     ? "bg-blue-600 hover:bg-blue-700 text-white"
                     : "bg-blue-600 hover:bg-blue-700 text-white"
                 }`}
               >
-                <span className="flex p-1 gap-2 ">
-                  <FaDownload className="mt-1" />
+                <span className="flex items-center gap-2">
+                  <FaDownload />
                   Download Resume
                 </span>
               </button>
