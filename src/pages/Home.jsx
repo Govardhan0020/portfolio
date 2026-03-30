@@ -102,7 +102,7 @@ export const Home = () => {
                 </button>
               </Link>
             </div>
-            <div className="flex flex-col sm:flex-row gap-2 justify-start items-start mt-4">
+            <div className="flex flex-col sm:flex-row gap-2 justify-center sm:justify-start items-center sm:items-start mt-4">
               <button
                 onClick={handleDownload}
                 className={`px-5 py-3 rounded-lg font-semibold transition-all duration-300 text-sm sm:text-base cursor-pointer w-fit ${
