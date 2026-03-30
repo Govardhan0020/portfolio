@@ -1,13 +1,14 @@
+import { Footer } from "./components/Footer";
+import { RoutePages } from "./pages/RoutePages";
 
-import './App.css'
 
 function App() {
-
-  return (
- <>
- <h1> My portfolio is updated   data  </h1>
- </>
-  )
+  return ( 
+     <div>
+      <RoutePages />
+      <Footer />
+     </div>
+  );
 }
 
-export default App
+export default App;
