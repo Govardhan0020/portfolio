@@ -68,10 +68,10 @@ export const Home = () => {
               I'm a passionate{" "}
               <span className="font-semibold"> Frontend Developer</span>{" "}
               specializing in the{" "}
-              <span className="font-semibold">MERN Stack</span>. Beyond coding,
+              <span className="font-semibold">Reacctjs </span>. Beyond coding,
               I create engaging content on , explore{" "}
-              <span className="font-semibold">AI/ML</span> and{" "}
-              <span className="font-semibold">Data Science</span>, and love
+              <span className="font-semibold"> React </span> and{" "}
+              <span className="font-semibold">   Redux </span>, and love
               solving challenging{" "}
               <span className="font-semibold">Data Structure & Algorithm</span>{" "}
               problems.
