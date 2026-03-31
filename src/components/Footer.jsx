@@ -10,7 +10,7 @@ export const Footer = () => {
   const isDark = theme === "dark";
 
   return (
-    <footer
+    <div
       className={`${
         isDark
           ? "bg-black text-gray-300 border-gray-800"
@@ -67,7 +67,7 @@ export const Footer = () => {
           <h3 className="font-semibold mb-3">Follow Me</h3>
           <div className="flex gap-4 text-lg">
             <a
-              href="https://github.com/your-username"
+              href="https://github.com/Govardhan0020"
               target="_blank"
               rel="noreferrer"
               className="hover:text-blue-500"
@@ -75,7 +75,7 @@ export const Footer = () => {
               <FaGithub />
             </a>
             <a
-              href="https://linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/jujaru-govardhan-992553238/"
               target="_blank"
               rel="noreferrer"
               className="hover:text-blue-500"
@@ -96,6 +96,6 @@ export const Footer = () => {
       >
         © 2026 Govardhan. All rights reserved.
       </div>
-    </footer>
+    </div>
   );
 };

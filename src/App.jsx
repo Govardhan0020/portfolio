@@ -1,13 +1,12 @@
 import { Footer } from "./components/Footer";
 import { RoutePages } from "./pages/RoutePages";
 
-
 function App() {
-  return ( 
-     <div>
+  return (
+    <>
       <RoutePages />
       <Footer />
-     </div>
+    </>
   );
 }
 

@@ -8,7 +8,7 @@ import { Navbar } from '../components/Navbar'
 
 export const RoutePages = () => {
   return (
-    <div>
+    <>
             <Navbar />
             <Routes>
                 <Route index path="/" element={ <Home /> } />
@@ -19,6 +19,6 @@ export const RoutePages = () => {
             </Routes>
 
 
-    </div>
+    </>
   )
 }
