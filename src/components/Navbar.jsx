@@ -15,7 +15,6 @@ const navLinks = [
 export const Navbar = () => {
   const { theme, toggleTheme } = useTheme();
   const [isOpen, setIsOpen] = useState(false);
-  console.log(theme, toggleTheme, " thmek ");
 
   const navbarBg =
     theme === "dark"

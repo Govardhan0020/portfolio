@@ -5,7 +5,6 @@ export const Projects = () => {
   const [repos, setRepos] = useState([]);
   const { theme } = useTheme();
 
-  console.log(theme, " theme ");
 
   useEffect(() => {
     fetch("https://api.github.com/users/Govardhan0020/repos")
@@ -27,7 +26,6 @@ export const Projects = () => {
     namesToFilter.includes(item.name),
   );
 
-  console.log(repos, filteredData, " repos data ");
 
   return (
     <div className="p-4 mt-15 px-6">
