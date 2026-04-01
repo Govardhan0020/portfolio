@@ -216,5 +216,3 @@ export const Navbar = () => {
     </motion.nav>
   );
 };
-
-
