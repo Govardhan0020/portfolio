@@ -90,7 +90,7 @@ export const Home = () => {
                 </button>
               </Link>
 
-              <Link to="/connect">
+              <Link to="/contact">
                 <button
                   className={`px-8 py-3 rounded-lg font-semibold border-2 transition-all duration-300 text-sm sm:text-base cursor-pointer ${
                     isDark

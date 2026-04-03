@@ -111,7 +111,7 @@ export const Contact = () => {
           {contacts.map((item, i) => (
             <div
               key={i}
-              className={`flex items-center gap-4 rounded-xl px-5 py-4 transition-all duration-500 cursor-pointer border ${
+              className={`flex items-start gap-4 rounded-xl px-2 py-4 transition-all duration-500 cursor-pointer border ${
                 isDark
                   ? "bg-blue-950/40 border-blue-900/40 hover:bg-blue-950"
                   : "bg-white/80 border-blue-100 hover:bg-blue-50"
@@ -127,7 +127,7 @@ export const Contact = () => {
                   {item.label}
                 </p>
                 <p
-                  className={`font-semibold text-lg ${
+                  className={`font-semibold text-md ${
                     isDark ? "text-gray-200" : "text-gray-800"
                   }`}
                 >
