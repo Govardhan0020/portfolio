@@ -34,7 +34,7 @@ export const Projects = () => {
 
   return (
     <div
-      className={`p-4 mt-15 px-15
+      className={`p-4 mt-15 px-4
             ${theme === "dark" ? "bg-black " : "bg-white "} `}
     >
       {loading ? (
