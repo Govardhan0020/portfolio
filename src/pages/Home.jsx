@@ -68,7 +68,7 @@ export const Home = () => {
               I'm a passionate{" "}
               <span className="font-semibold"> Frontend Developer</span>{" "}
               specializing in the{" "}
-              <span className="font-semibold">Reacctjs </span>. Beyond coding, I
+              <span className="font-semibold">React js </span>. Beyond coding, I
               create engaging content on , explore{" "}
               <span className="font-semibold"> React </span> and{" "}
               <span className="font-semibold"> Redux </span>, and love solving
