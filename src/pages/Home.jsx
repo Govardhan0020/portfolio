@@ -62,20 +62,39 @@ export const Home = () => {
               Frontend Developer | React Specialist
             </p>
 
-            <p
-              className={`text-base sm:text-lg leading-relaxed mb-8 ${textPrimary}`}
-            >
-              I'm a passionate{" "}
-              <span className="font-semibold"> Frontend Developer</span>{" "}
-              specializing in the{" "}
-              <span className="font-semibold">React js </span>. Beyond coding, I
-              create engaging content on , explore{" "}
-              <span className="font-semibold"> React </span> and{" "}
-              <span className="font-semibold"> Redux </span>, and love solving
-              challenging{" "}
-              <span className="font-semibold">Data Structure & Algorithm</span>{" "}
-              problems.
-            </p>
+            <div className={`${textPrimary}  mb-8 `}>
+              <p className="text-base sm:text-lg leading-relaxed mb-4">
+                I am a dedicated and detail-oriented{" "}
+                <span className="font-semibold">Frontend Developer</span> with
+                strong expertise in building responsive and user-friendly web
+                applications using{" "}
+                <span className="font-semibold">React.js</span>.
+              </p>
+
+              <p className="text-base sm:text-lg leading-relaxed mb-4">
+                I have a solid understanding of modern JavaScript frameworks and
+                continuously strive to enhance my skills in{" "}
+                <span className="font-semibold">frontend technologies</span>.
+              </p>
+
+              <p className="text-base sm:text-lg leading-relaxed mb-4">
+                Beyond development, I enjoy exploring advanced concepts in{" "}
+                <span className="font-semibold">React</span> and{" "}
+                <span className="font-semibold">Redux</span>, and I actively
+                work on improving my problem-solving abilities through{" "}
+                <span className="font-semibold">
+                  Data Structures & Algorithms
+                </span>
+                .
+              </p>
+
+              <p className="text-base sm:text-lg leading-relaxed">
+                I am passionate about creating seamless user experiences and
+                delivering high-quality digital solutions. I am always eager to
+                learn new technologies, take on challenging projects, and
+                contribute effectively to innovative teams.
+              </p>
+            </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Link to="/projects">
