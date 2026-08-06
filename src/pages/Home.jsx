@@ -1,6 +1,6 @@
 import React from "react";
 import { useTheme } from "../hooks/ThemeContext";
-import Govardhan_Resume from "../assets/Govardhan_Resume.pdf";
+import Govardhan_Resume from "../assets/Govardhan_Resume.pdf"; 
 import { FaCode, FaDatabase, FaReact, FaDownload } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import profilepic from "../assets/profilePicture.jpg";
